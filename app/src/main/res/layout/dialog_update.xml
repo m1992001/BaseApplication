@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="#00000000"
+    android:gravity="center"
+    android:paddingRight="4dip"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/whiteconerbg"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="15dip"
+        android:paddingBottom="15dip"
+
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+
+            android:layout_marginLeft="0dp"
+            android:id="@+id/guanzhulinear">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="确认要退出登录？"
+
+                android:id="@+id/title"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="14dip"
+                android:textColor="#1a1a1a"
+                android:textStyle="bold"
+                android:textSize="15dip" />
+        </LinearLayout>
+        <!--<View-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:background="#bdbdbd"-->
+            <!--/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="30dip"
+            android:layout_marginBottom="10dip"
+            android:orientation="horizontal"
+            android:id="@+id/scanlinear">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="44dip"
+                android:layout_marginLeft="5dip"
+                android:text="取消"
+                android:background="@drawable/dialogbt_selector"
+                android:layout_weight="1"
+                android:id="@+id/cancle"
+                android:textColor="#1a1a1a"
+                android:minWidth="130dip"
+                android:textSize="15dip" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="44dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:text="确定"
+                android:id="@+id/sure"
+                android:background="@drawable/dialogbt_selector"
+                android:layout_weight="1"
+                android:minWidth="130dip"
+                android:textColor="#1481ff"
+                android:textSize="15dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
